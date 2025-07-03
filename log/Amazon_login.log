@@ -1,0 +1,135 @@
+2025-07-02 09:17:52,254 - INFO - Amazon Login Script Started
+2025-07-02 09:17:53,537 - INFO - Webdriver is created and started successfully
+2025-07-02 09:17:55,923 - INFO - Opened Amazon.in
+2025-07-02 09:19:07,722 - INFO - Search bar is found
+2025-07-02 09:19:07,921 - INFO - 'Asus Tuf A15 Rtx 4050' is typed
+2025-07-02 09:19:07,961 - INFO - Search bar is searching and submitted
+2025-07-02 09:19:13,244 - INFO - Completed
+2025-07-02 09:20:03,296 - INFO - Amazon Login Script Started
+2025-07-02 09:20:04,541 - INFO - Webdriver is created and started successfully
+2025-07-02 09:20:33,424 - INFO - Opened Amazon.in
+2025-07-02 09:20:33,477 - INFO - Search bar is found
+2025-07-02 09:20:33,707 - INFO - 'Asus Tuf A15 Rtx 4050' is typed
+2025-07-02 09:20:38,428 - INFO - Search bar is searching and submitted
+2025-07-02 09:20:43,447 - ERROR - Assertion Error.{ae}
+2025-07-02 09:20:43,653 - INFO - Completed
+2025-07-02 10:10:30,726 - INFO - Amazon Login Script Started
+2025-07-02 10:10:32,023 - INFO - Webdriver is created and started successfully
+2025-07-02 10:10:36,411 - INFO - Opened Amazon.in
+2025-07-02 10:10:36,438 - INFO - Search bar is found
+2025-07-02 10:10:36,654 - INFO - 'Asus Tuf A15 Rtx 4050' is typed
+2025-07-02 10:10:36,708 - INFO - Search bar is searching and submitted
+2025-07-02 10:10:41,943 - INFO - Browser Closed
+2025-07-02 10:17:32,406 - INFO - Amazon Login Script Started
+2025-07-02 10:17:33,615 - INFO - Webdriver is created and started successfully
+2025-07-02 10:17:40,056 - INFO - Opened Amazon.in
+2025-07-02 10:18:06,344 - INFO - Search bar is found
+2025-07-02 10:18:06,597 - INFO - 'Asus Tuf A15 Rtx 4050' is typed
+2025-07-02 10:18:06,681 - INFO - Search bar is searching and submitted
+2025-07-02 10:18:14,740 - INFO - Browser Closed
+2025-07-02 10:18:24,053 - INFO - Amazon Login Script Started
+2025-07-02 10:18:25,366 - INFO - Webdriver is created and started successfully
+2025-07-02 10:18:32,586 - INFO - Opened Amazon.in
+2025-07-02 10:18:32,628 - INFO - Search bar is found
+2025-07-02 10:18:32,867 - INFO - 'Asus Tuf A15 Rtx 4050' is typed
+2025-07-02 10:18:38,508 - INFO - Search bar is searching and submitted
+2025-07-02 10:18:45,790 - INFO - Browser Closed
+2025-07-02 10:28:36,512 - INFO - Amazon Login Script Started
+2025-07-02 10:28:37,818 - INFO - Webdriver is created and started successfully
+2025-07-02 10:28:43,900 - INFO - Opened Amazon.in
+2025-07-02 10:28:43,931 - INFO - Search bar is found
+2025-07-02 10:28:44,169 - INFO - 'Asus Tuf A15 Rtx 4050' is typed
+2025-07-02 10:28:46,883 - INFO - Search bar is searching and submitted
+2025-07-02 10:28:54,209 - INFO - Browser Closed
+2025-07-02 10:46:39,972 - INFO - Amazon Login Script Started
+2025-07-02 10:46:41,224 - INFO - Webdriver is created and started successfully
+2025-07-02 10:46:55,979 - INFO - Opened Amazon.in
+2025-07-02 10:46:56,019 - INFO - Search bar is found
+2025-07-02 10:46:56,227 - INFO - 'Asus Tuf A15 Rtx 4050' is typed
+2025-07-02 10:47:00,965 - INFO - Search bar is searching and submitted
+2025-07-02 10:47:08,222 - INFO - Browser Closed
+2025-07-02 10:56:42,006 - INFO - Amazon Login Script Started
+2025-07-02 10:56:43,336 - INFO - Webdriver is created and started successfully
+2025-07-02 10:56:56,326 - INFO - Opened Amazon.in
+2025-07-02 10:56:56,370 - INFO - Search bar is found
+2025-07-02 10:56:56,674 - INFO - 'Asus Tuf A15 Rtx 4050' is typed
+2025-07-02 10:57:00,041 - INFO - Search bar is searching and submitted
+2025-07-02 10:57:07,636 - INFO - Browser Closed
+2025-07-02 11:00:07,044 - INFO - Amazon Login Script Started
+2025-07-02 11:00:08,340 - INFO - Webdriver is created and started successfully
+2025-07-02 11:00:17,302 - INFO - Opened Amazon.in
+2025-07-02 11:00:17,347 - INFO - Search bar is found
+2025-07-02 11:00:17,584 - INFO - 'Asus Tuf A15 Rtx 4050' is typed
+2025-07-02 11:00:17,642 - INFO - Search bar is searching and submitted
+2025-07-02 11:00:22,933 - INFO - ScreenShot taken
+2025-07-02 11:00:25,146 - INFO - Browser Closed
+2025-07-02 11:01:38,992 - INFO - Amazon Login Script Started
+2025-07-02 11:01:40,195 - INFO - Webdriver is created and started successfully
+2025-07-02 11:02:22,209 - INFO - Opened Amazon.in
+2025-07-02 11:02:22,239 - INFO - Search bar is found
+2025-07-02 11:02:22,493 - INFO - 'Asus Tuf A15 Rtx 4050 6GB' is typed
+2025-07-02 11:02:28,007 - INFO - Search bar is searching and submitted
+2025-07-02 11:02:33,269 - INFO - ScreenShot taken
+2025-07-02 11:02:35,442 - INFO - Browser Closed
+2025-07-02 11:03:04,465 - INFO - Amazon Login Script Started
+2025-07-02 11:03:05,714 - INFO - Webdriver is created and started successfully
+2025-07-02 11:03:14,696 - INFO - Opened Amazon.in
+2025-07-02 11:03:14,841 - INFO - Search bar is found
+2025-07-02 11:03:15,141 - INFO - 'Asus Tuf A15 Rtx 4050 6GB' is typed
+2025-07-02 11:03:19,177 - INFO - Search bar is searching and submitted
+2025-07-02 11:03:24,481 - INFO - ScreenShot taken
+2025-07-02 11:03:26,722 - INFO - Browser Closed
+2025-07-02 11:04:20,560 - INFO - Amazon Login Script Started
+2025-07-02 11:04:21,885 - INFO - Webdriver is created and started successfully
+2025-07-02 11:04:33,531 - INFO - Opened Amazon.in
+2025-07-02 11:04:33,631 - INFO - Search bar is found
+2025-07-02 11:04:33,892 - INFO - 'Asus Tuf A15 Rtx 4050 6GB' is typed
+2025-07-02 11:04:39,480 - INFO - Search bar is searching and submitted
+2025-07-02 11:04:44,710 - INFO - ScreenShot taken
+2025-07-02 11:04:46,938 - INFO - Browser Closed
+2025-07-02 11:05:12,702 - INFO - Amazon Login Script Started
+2025-07-02 11:05:13,987 - INFO - Webdriver is created and started successfully
+2025-07-02 11:05:28,777 - INFO - Opened Amazon.in
+2025-07-02 11:05:28,831 - INFO - Search bar is found
+2025-07-02 11:05:29,228 - INFO - 'Asus Tuf A15 Rtx 4050 6GB' is typed
+2025-07-02 11:05:34,398 - INFO - Search bar is searching and submitted
+2025-07-02 11:05:39,637 - INFO - ScreenShot taken
+2025-07-02 11:05:41,928 - INFO - Browser Closed
+2025-07-02 11:12:26,098 - INFO - Amazon Login Script Started
+2025-07-02 11:13:19,083 - INFO - Amazon Login Script Started
+2025-07-02 11:13:58,121 - INFO - Amazon Login Script Started
+2025-07-02 11:16:36,580 - INFO - Amazon Login Script Started
+2025-07-02 11:16:37,859 - INFO - Webdriver is created and started successfully
+2025-07-02 11:16:42,556 - INFO - Opened Amazon.in
+2025-07-02 11:16:42,570 - INFO - Search bar is found
+2025-07-02 11:16:42,804 - INFO - 'Asus Tuf A15 Rtx 4050 6GB' is typed
+2025-07-02 11:16:42,874 - INFO - Search bar is searching and submitted
+2025-07-02 11:16:48,111 - INFO - ScreenShot taken
+2025-07-02 11:16:50,307 - INFO - Browser Closed
+2025-07-02 11:18:20,162 - INFO - Amazon Login Script Started
+2025-07-02 11:18:21,497 - INFO - Webdriver is created and started successfully
+2025-07-02 11:18:25,980 - INFO - Opened Amazon.in
+2025-07-02 11:18:26,024 - INFO - Search bar is found
+2025-07-02 11:18:26,304 - INFO - 'Asus Tuf A15 Rtx 4050 6GB' is typed
+2025-07-02 11:18:28,430 - INFO - Search bar is searching and submitted
+2025-07-02 11:18:33,656 - INFO - ScreenShot taken
+2025-07-02 11:18:35,865 - INFO - Browser Closed
+2025-07-02 12:17:53,650 - INFO - Amazon Login Script Started
+2025-07-02 12:17:55,007 - INFO - Webdriver is created and started successfully
+2025-07-02 12:18:15,676 - INFO - Opened Amazon.in
+2025-07-02 12:18:15,698 - INFO - Search bar is found
+2025-07-02 12:18:15,966 - INFO - 'Asus Tuf A15 Rtx 4050 6GB' is typed
+2025-07-02 12:18:23,582 - INFO - Search bar is searching and submitted
+2025-07-02 12:18:28,851 - INFO - ScreenShot taken
+2025-07-02 12:18:31,063 - INFO - Browser Closed
+2025-07-03 10:47:54,149 - INFO - === Starting OrangeHRM Test Suite ===
+2025-07-03 10:47:54,194 - INFO - === OrangeHRM Test Suite Completed ===
+
+2025-07-03 10:49:45,855 - INFO - === Starting OrangeHRM Test Suite ===
+2025-07-03 10:49:45,932 - INFO - === OrangeHRM Test Suite Completed ===
+
+2025-07-03 10:51:04,217 - INFO - === Starting OrangeHRM Test Suite ===
+2025-07-03 10:55:34,806 - INFO - === Starting OrangeHRM Test Suite ===
+2025-07-03 10:56:56,790 - INFO - Valid Login - PASS: Login successful and Dashboard loaded.
+2025-07-03 10:57:00,314 - INFO - === OrangeHRM Test Suite Completed ===
+

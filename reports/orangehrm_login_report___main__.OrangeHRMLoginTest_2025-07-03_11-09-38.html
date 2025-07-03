@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OrangeHRM Login Test Report</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">OrangeHRM Login Test Report</h2>
+                <p class='attribute'><strong>Start Time: </strong>2025-07-03 11:09:38</p>
+                <p class='attribute'><strong>Duration: </strong>103.90 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 3, Pass: 1, Error: 2</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.OrangeHRMLoginTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_empty_login</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TimeoutException: Message: 
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:\Users\Arcknight\Desktop\HCL_Testing_Training\Coding\exp34.py", line 126, in test_empty_login
+    raise e
+  File "c:\Users\Arcknight\Desktop\HCL_Testing_Training\Coding\exp34.py", line 115, in test_empty_login
+    required_elements = WebDriverWait(self.driver, 15).until(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Arcknight\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_invalid_login</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7a67bcda5+78885]
+	GetHandleVerifier [0x0x7ff7a67bce00+78976]
+	(No symbol) [0x0x7ff7a6579bca]
+	(No symbol) [0x0x7ff7a65d0766]
+	(No symbol) [0x0x7ff7a65d0a1c]
+	(No symbol) [0x0x7ff7a6624467]
+	(No symbol) [0x0x7ff7a65f8bcf]
+	(No symbol) [0x0x7ff7a662122f]
+	(No symbol) [0x0x7ff7a65f8963]
+	(No symbol) [0x0x7ff7a65c16b1]
+	(No symbol) [0x0x7ff7a65c2443]
+	GetHandleVerifier [0x0x7ff7a6a94eed+3061101]
+	GetHandleVerifier [0x0x7ff7a6a8f33d+3037629]
+	GetHandleVerifier [0x0x7ff7a6aae592+3165202]
+	GetHandleVerifier [0x0x7ff7a67d730e+186766]
+	GetHandleVerifier [0x0x7ff7a67deb3f+217535]
+	GetHandleVerifier [0x0x7ff7a67c59b4+114740]
+	GetHandleVerifier [0x0x7ff7a67c5b69+115177]
+	GetHandleVerifier [0x0x7ff7a67ac368+10728]
+	BaseThreadInitThunk [0x0x7ff90d07e8d7+23]
+	RtlUserThreadStart [0x0x7ff90de3c34c+44]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:\Users\Arcknight\Desktop\HCL_Testing_Training\Coding\exp34.py", line 102, in test_invalid_login
+    raise e
+  File "c:\Users\Arcknight\Desktop\HCL_Testing_Training\Coding\exp34.py", line 91, in test_invalid_login
+    error_element = WebDriverWait(self.driver, 15).until(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Arcknight\anaconda3\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7a67bcda5+78885]
+	GetHandleVerifier [0x0x7ff7a67bce00+78976]
+	(No symbol) [0x0x7ff7a6579bca]
+	(No symbol) [0x0x7ff7a65d0766]
+	(No symbol) [0x0x7ff7a65d0a1c]
+	(No symbol) [0x0x7ff7a6624467]
+	(No symbol) [0x0x7ff7a65f8bcf]
+	(No symbol) [0x0x7ff7a662122f]
+	(No symbol) [0x0x7ff7a65f8963]
+	(No symbol) [0x0x7ff7a65c16b1]
+	(No symbol) [0x0x7ff7a65c2443]
+	GetHandleVerifier [0x0x7ff7a6a94eed+3061101]
+	GetHandleVerifier [0x0x7ff7a6a8f33d+3037629]
+	GetHandleVerifier [0x0x7ff7a6aae592+3165202]
+	GetHandleVerifier [0x0x7ff7a67d730e+186766]
+	GetHandleVerifier [0x0x7ff7a67deb3f+217535]
+	GetHandleVerifier [0x0x7ff7a67c59b4+114740]
+	GetHandleVerifier [0x0x7ff7a67c5b69+115177]
+	GetHandleVerifier [0x0x7ff7a67ac368+10728]
+	BaseThreadInitThunk [0x0x7ff90d07e8d7+23]
+	RtlUserThreadStart [0x0x7ff90de3c34c+44]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_valid_login</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 3, Pass: 1, Error: 2 -- Duration: 103.90 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

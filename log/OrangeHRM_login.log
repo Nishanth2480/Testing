@@ -1,0 +1,34 @@
+2025-07-03 11:04:11,359 - INFO - === Starting OrangeHRM Test Suite ===
+2025-07-03 11:05:20,448 - INFO - Valid Login - PASS: Login successful and Dashboard loaded.
+2025-07-03 11:05:23,663 - INFO - === OrangeHRM Test Suite Completed ===
+
+2025-07-03 11:09:38,214 - INFO - === Starting OrangeHRM Test Suite ===
+2025-07-03 11:10:18,470 - ERROR - Empty Login - FAIL: Message: 
+
+2025-07-03 11:10:55,234 - ERROR - Invalid Login - FAIL: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7a67bcda5+78885]
+	GetHandleVerifier [0x0x7ff7a67bce00+78976]
+	(No symbol) [0x0x7ff7a6579bca]
+	(No symbol) [0x0x7ff7a65d0766]
+	(No symbol) [0x0x7ff7a65d0a1c]
+	(No symbol) [0x0x7ff7a6624467]
+	(No symbol) [0x0x7ff7a65f8bcf]
+	(No symbol) [0x0x7ff7a662122f]
+	(No symbol) [0x0x7ff7a65f8963]
+	(No symbol) [0x0x7ff7a65c16b1]
+	(No symbol) [0x0x7ff7a65c2443]
+	GetHandleVerifier [0x0x7ff7a6a94eed+3061101]
+	GetHandleVerifier [0x0x7ff7a6a8f33d+3037629]
+	GetHandleVerifier [0x0x7ff7a6aae592+3165202]
+	GetHandleVerifier [0x0x7ff7a67d730e+186766]
+	GetHandleVerifier [0x0x7ff7a67deb3f+217535]
+	GetHandleVerifier [0x0x7ff7a67c59b4+114740]
+	GetHandleVerifier [0x0x7ff7a67c5b69+115177]
+	GetHandleVerifier [0x0x7ff7a67ac368+10728]
+	BaseThreadInitThunk [0x0x7ff90d07e8d7+23]
+	RtlUserThreadStart [0x0x7ff90de3c34c+44]
+
+2025-07-03 11:11:18,964 - INFO - Valid Login - PASS: Login successful and Dashboard loaded.
+2025-07-03 11:11:22,183 - INFO - === OrangeHRM Test Suite Completed ===
+
