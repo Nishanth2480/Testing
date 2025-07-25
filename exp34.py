@@ -56,7 +56,7 @@ class OrangeHRMLoginTest(unittest.TestCase):
         time.sleep(2)
         self.driver.switch_to.alert.accept()
 
-    def test_valid_login(self):
+    def test_1_valid_login(self):
         test_name = "Valid Login"
         try:
             self.wait.until(EC.presence_of_element_located((By.NAME, "username"))).send_keys("Admin")
@@ -78,31 +78,31 @@ class OrangeHRMLoginTest(unittest.TestCase):
             self.log_result(test_name, "FAIL", str(e))
             raise e
 
-    def test_invalid_login(self):
+    def test_2_invalid_login(self):
         test_name = "Invalid Login"
         try:
             self.wait.until(EC.presence_of_element_located((By.NAME, "username"))).send_keys("Admin")
             time.sleep(2)
-            self.wait.until(EC.presence_of_element_located((By.NAME, "password"))).send_keys("wrongpass")
+            self.wait.until(EC.presence_of_element_located((By.NAME, "password"))).send_keys("Dark$2004")
             time.sleep(2)
             self.wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"))).click()
             time.sleep(2)
 
-            error_element = WebDriverWait(self.driver, 15).until(
-                EC.presence_of_element_located((By.XPATH, "//p[contains(text(),'Invalid')]"))
-            )
+            error_element = self.wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(text(),'Invalid credentials')]")))
             assert "invalid" in error_element.text.lower(), "Invalid credentials error not shown"
 
             self.show_alert("True")
             self.log_result(test_name, "PASS", "Proper error message shown.")
         except Exception as e:
-            self.driver.save_screenshot(f"{test_name.replace(' ', '_')}_error.png")
+            screenshot_dir = r"C:\Users\Arcknight\Desktop\HCL_Testing_Training\Coding\Screenshot"
+            os.makedirs(screenshot_dir, exist_ok=True)
+            self.driver.save_screenshot(f"{screenshot_dir}\\{test_name.replace(' ', '_')}_error.png")
             self.show_alert("False")
             self.log_result(test_name, "FAIL", str(e))
             raise e
 
 
-    def test_empty_login(self):
+    def test_3_empty_login(self):
         test_name = "Empty Login"
         try:
             self.wait.until(EC.presence_of_element_located((By.NAME, "username"))).send_keys("")
@@ -112,15 +112,15 @@ class OrangeHRMLoginTest(unittest.TestCase):
             self.wait.until(EC.element_to_be_clickable((By.XPATH, "/html/body/div/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"))).click()
             time.sleep(2)
 
-            required_elements = WebDriverWait(self.driver, 15).until(
-                EC.presence_of_all_elements_located((By.XPATH, "//span[contains(text(),'Required')]"))
-            )
+            required_elements = self.wait.until(EC.presence_of_all_elements_located((By.XPATH, "//*[contains(text(),'Required')]")))
             assert any("required" in el.text.lower() for el in required_elements), "Required message not shown"
 
             self.show_alert("True")
             self.log_result(test_name, "PASS", "Required field message displayed.")
         except Exception as e:
-            self.driver.save_screenshot(f"{test_name.replace(' ', '_')}_error.png")
+            screenshot_dir = r"C:\Users\Arcknight\Desktop\HCL_Testing_Training\Coding\Screenshot"
+            os.makedirs(screenshot_dir, exist_ok=True)
+            self.driver.save_screenshot(f"{screenshot_dir}\\{test_name.replace(' ', '_')}_error.png")
             self.show_alert("False")
             self.log_result(test_name, "FAIL", str(e))
             raise e
